@@ -8,6 +8,7 @@
     section h2,
     section h3,
     form button,
+    footer p,
         .kanit-semibold {
     font-family: "Kanit", sans-serif;
     font-weight: 600;
@@ -125,6 +126,12 @@ input:focus, textarea:focus {
 footer {
     background-color: #4b3532;
     color: #ecf0f1;
-    padding: 16px 0;
+    padding: 4px 0
+}
+
+footer p {
+    text-align: center;
+    font-size: 16px;
+    margin: 5px
 }
 
